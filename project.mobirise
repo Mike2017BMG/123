@@ -8,7 +8,7 @@
       "styling": {}
     },
     "versionFirst": "3.10.4",
-    "uniqCompNum": 4,
+    "uniqCompNum": 6,
     "versionPublish": "3.10.4"
   },
   "pages": {
@@ -70,7 +70,7 @@
               "linkInNewWindow": false
             }
           },
-          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">my inspiration</a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Overview</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Features</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Help</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>"
         },
         {
@@ -97,12 +97,97 @@
             "contentAlign": "left",
             "showTitle": true,
             "showText": false,
-            "showButtons": true,
-            "showArrow": false
+            "showButtons": false,
+            "showArrow": true
           },
-          "title": "Website Builder",
+          "title": "my inspiration",
           "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">For Windows</a> "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">For Windows</a>  ",
+          "_styles": {
+            "H1": {
+              "text-align": "left",
+              "font-family": "'Indie Flower', cursive",
+              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower"
+            }
+          }
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-5",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.7,
+            "overlayColor": "#fff",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "Easy to Use!",
+          "caption": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/photo-3-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+                "active": true
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/photo-4-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/photo-4.jpg"
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/photo-5-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/photo-5.jpg"
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/photo-7-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/photo-7.jpg"
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/photo-8-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/photo-8.jpg"
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/photo-11-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/photo-11.jpg"
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/photo-12-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/photo-12.jpg"
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/photo-13-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/photo-13.jpg"
+              }
+            ],
+            "bgColor": "#efefef",
+            "showBullets": true
+          },
+          "_anchor": "gallery1-4",
+          "articleLayout": false
         },
         {
           "alias": "purity/components",
@@ -121,7 +206,7 @@
             "paddingBottom": "3",
             "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
             "bgColor": "#000000",
             "bgColorRadio": true,
             "overlay": false,
