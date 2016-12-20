@@ -150,17 +150,17 @@
             "paddingBottom": 0,
             "images": [
               {
-                "thumb": "@PROJECT_PATH@/assets/images/photo-3-small.jpg",
-                "image": "@PROJECT_PATH@/assets/images/photo-3.jpg",
-                "active": true
-              },
-              {
                 "thumb": "@PROJECT_PATH@/assets/images/photo-4-small.jpg",
                 "image": "@PROJECT_PATH@/assets/images/photo-4.jpg"
               },
               {
                 "thumb": "@PROJECT_PATH@/assets/images/photo-5-small.jpg",
                 "image": "@PROJECT_PATH@/assets/images/photo-5.jpg"
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/photo-3-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+                "active": false
               },
               {
                 "thumb": "@PROJECT_PATH@/assets/images/photo-7-small.jpg",
@@ -176,11 +176,13 @@
               },
               {
                 "thumb": "@PROJECT_PATH@/assets/images/photo-12-small.jpg",
-                "image": "@PROJECT_PATH@/assets/images/photo-12.jpg"
+                "image": "@PROJECT_PATH@/assets/images/photo-12.jpg",
+                "active": true
               },
               {
-                "thumb": "@PROJECT_PATH@/assets/images/photo-13-small.jpg",
-                "image": "@PROJECT_PATH@/assets/images/photo-13.jpg"
+                "thumb": "@PROJECT_PATH@/assets/images/photo-3-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+                "active": false
               }
             ],
             "bgColor": "#efefef",
